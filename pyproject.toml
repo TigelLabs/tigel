@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tigel"
+version = "0.0.0"
+description = "Tigel — one crucible for all your agents. Placeholder; full release TBD."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Vitaly Bury", email = "vitaly@tigel.ai" }
+]
+keywords = ["tigel", "agents", "ai", "orchestration", "llm"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries"
+]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://tigel.ai"
+Repository = "https://github.com/TigelLabs/tigel"
+Issues = "https://github.com/TigelLabs/tigel/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
